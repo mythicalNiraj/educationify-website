@@ -1,0 +1,111 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.navbar{
+    width:100%;
+    min-height: 100vh;
+    background-image: linear-gradient(0deg,#04070c 100%,#05050cf3 0%);
+    background-position: center;
+    background-size: cover;
+    padding:100px,60%;
+    overflow: hidden;
+    position: fixed;
+}
+nav{
+    padding:10px 0.85%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: none;
+}
+.logo{
+    width:140px;
+    padding:30px;
+    align-content: center;
+
+}
+ nav ul li{
+    display:inline-block;
+    list-style:none;
+    margin:10px 15px;
+ }
+ nav ul li:hover{
+background-color: #45595f;
+border-radius: 35px;
+padding: 13px 18px;
+ }
+ nav ul li a{
+    text-decoration: none;
+    color:rgb(13, 114, 182);
+    font-weight: 400;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ 
+ .logo-text{
+    color:rgb(13, 114, 182);
+    position: relative;
+    top:10px;
+    vertical-align: top;
+ }
+ .overlay{
+    position: absolute;
+    top:17%;
+    left: 1.89%;
+    color:rgb(13, 114, 182);
+    font-size: 20px;
+ }
+ #login{
+    word-spacing: 40%;
+    justify-content: space-between;
+    text-decoration: none;
+    color:rgb(13, 114, 182);
+    margin-right: 50px;
+   font-weight: 400;
+ }
+ #login:hover{
+       background-color: #45595f;
+       border-radius: 35px;
+       padding: 13px 18px;
+
+ }
+ #download{
+   display:inline-block;
+   text-decoration: none;
+   color:rgb(3, 3, 3);
+  background-image: linear-gradient(45deg,#661fa0,#1bb4ad);
+  font-size:15px;
+  border-radius: 40px;
+  border-top-right-radius: 0%;
+  padding:14px 40px;
+}
+.dropdown{
+   display:none;
+}
+ul li:hover .dropdown{
+   display:block;
+   position: absolute;
+
+}
+.dropdown ul li{
+   display:block;
+
+}
+#section{
+   display:flex;
+   min-height: 100vh;
+   color: #1bb4ad;
+  justify-content: center;
+  align-items: center ;
+  top: 10cm;
+}
+.wrapper.static-txt{
+   color:#fff;
+   font-size:60px;
+   font-weight: 400;
+}
